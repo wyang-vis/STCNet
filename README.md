@@ -24,7 +24,7 @@ Install warmup scheduler
 
 ## Evaluation
 - Download the [GoPro events test dataset](https://pan.baidu.com/s/1UKV-sPGo9mRf7XJjZDoF7Q) (code: kmaz) to ./Datasets
-- Download the  [pretrained model](https://pan.baidu.com/s/193vCnygNkXT_GOq6PhRrhg) (code: svbb) to ./checkpoints/models/STCNet
+- Download the  [pretrained model](https://pan.baidu.com/s/1qvTokB8mcAA8cj56F1rE4w)) (code: daye) to ./checkpoints/models/STCNet
 - Test the model with default arguments by running
 
   python main_test.py
