@@ -1,0 +1,30 @@
+###############
+## 
+####
+
+GPU: [2,3]
+
+VERBOSE: True
+
+MODEL:
+  MODE: 'Deblurring'
+  SESSION: 'STCNet'
+
+# Optimization arguments.
+OPTIM:
+  BATCH_SIZE: 8
+  NUM_EPOCHS: 1000
+  # NEPOCH_DECAY: [10]
+  LR_INITIAL: 2e-4
+  LR_MIN: 1e-6
+  # BETA1: 0.9
+TESTING:
+  RESUME: True
+
+TRAINING:
+  VAL_AFTER_EVERY: 1
+  RESUME: False
+  TRAIN_PS: 4
+  VAL_PS: 360
+  SAVE_DIR: './checkpoints'     # path to save models and images
+  # SAVE_IMAGES: False
