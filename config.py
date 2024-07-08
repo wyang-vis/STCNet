@@ -85,7 +85,7 @@ class Config(object):
         self.result_dir='./output'
 
 
-        self.father_train_path_npz='./Datasets/GROPO/test'
+        self.father_train_path_npz='./Datasets/GROPO/train'
         self.father_val_path_npz='./Datasets/GROPO/test'
         self.father_test_path_npz='./Datasets/GROPO/test'
 
