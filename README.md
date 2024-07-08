@@ -28,3 +28,21 @@ Install warmup scheduler
 - Test the model with default arguments by running
 
   python main_test.py
+
+
+## Citations
+    @inproceedings{yang2024motion,
+      title={Motion Deblurring via Spatial-Temporal Collaboration of Frames and Events},
+      author={Yang, Wen and Wu, Jinjian and Ma, Jupo and Li, Leida and Shi, Guangming},
+      booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+      volume={38},
+      number={7},
+      pages={6531--6539},
+      year={2024}
+    }
+## Contact
+ Should you have any questions, please feel free to contact [wenyang.xd@gmail.com](mailto:wenyang.xd@gmail.com)
+
+
+## Acknowledgement
+Thanks to the inspirations and codes from [MPRNet](https://github.com/swz30/MPRNet)
