@@ -24,7 +24,7 @@ TESTING:
 TRAINING:
   VAL_AFTER_EVERY: 1
   RESUME: False
-  TRAIN_PS: 4
+  TRAIN_PS: 256
   VAL_PS: 360
   SAVE_DIR: './checkpoints'     # path to save models and images
   # SAVE_IMAGES: False
